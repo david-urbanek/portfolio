@@ -14,9 +14,9 @@ export const DATA = {
   location: "Brno, Czech Republic",
   locationLink: "https://www.google.com/maps/place/brno",
   description:
-    "Ahoj, jsem David, je mi 22 let a momentálně studuji podnikovou informatiku na MUNI. Myslím si, že lidé by se měli více učit databáze než Excel :D",
+    "jsem David, je mi 22 let a studuji podnikovou informatiku na MUNI. Věřím v to, že lidé by se měli více učit databáze než Excel :D",
   summary:
-    "Momentálně studuji podnikovou informatiku na MUNI, kde jsem v posledním bakalářském semestru. Posledních dva roky se sám věnuji webovému vývoji, převážně ve frameworku Next.js. Momentálně nejvíce pracuji v Antigravity a rád bych se více zajímal o agentic-based development. Rád bych po dokončení bakaláře pokračoval na magisterském studiu v oboru softwarové inženýrství.",
+    "Studuji podnikovou informatiku na MUNI, kde jsem v posledním bakalářském semestru. Posledních dva roky se sám věnuji webovému vývoji, převážně ve frameworku Next.js. V současné době nejvíce pracuji v Antigravity a rád bych se více zajímal o agentic-based development. Rád bych po dokončení bakaláře pokračoval na magisterském studiu v oboru softwarové inženýrství.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "React", icon: ReactLight },
@@ -29,7 +29,7 @@ export const DATA = {
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "urbanek.dav@email.cz",
-    tel: "+420725448848",
+    tel: "+420606980435",
     social: {
       GitHub: {
         name: "GitHub",
@@ -75,8 +75,8 @@ export const DATA = {
       location: "Brno, Czech Republic",
       title: "SOC/NOC Specialist",
       logoUrl: "/anect.png",
-      start: "leden 2021",
-      end: "duben 2021",
+      start: "květen 2023",
+      end: "prosinec 2024",
       description:
         "Monitorování IT infrastruktury a sítí klientů v režimu 24/7 s použitím pokročilých monitorovacích nástrojů. Identifikace a řešení bezpečnostních incidentů a síťových problémů v reálném čase. Analýza logů a síťového provozu pro detekci anomálií a potenciálních hrozeb. Spolupráce s technickými týmy na rychlém řešení kritických situací a minimalizaci dopadů na provoz klientů.",
     },
@@ -106,7 +106,7 @@ export const DATA = {
       dates: "prosinec 2025 - současnost",
       active: false,
       description:
-        "Webová aplikace pro rezervaci virtuální reality. Umožňuje realitním kancelářím nahrávat 360° fotografie a vytvářet interaktivní virtuální prohlídky.",
+        "Webová aplikace pro rezervaci virtuální reality. Umožňuje klientům si pohodlně rezervovat typ headsetu a následně za něj zaplatit. Aplikace využívá Stripe API pro zpracování plateb a Supabase pro uložení dat rezervací. Aplikace je aktuálně ve vývojové fázi a ještě není v produkci.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -114,6 +114,7 @@ export const DATA = {
         "Supabase",
         "TailwindCSS",
         "Shadcn UI",
+        "Stripe",
       ],
       links: [
         {
@@ -133,10 +134,10 @@ export const DATA = {
     {
       title: "Projekt do Softwarového inženýrství",
       href: "/project/uml.pdf",
-      dates: "září 2024 - leden 2025",
+      dates: "září 2025 - prosinec 2025",
       active: false,
       description:
-        "Týmový projekt v rámci university, zaměřený na modelování fintechové aplikace ve s standardu UML.",
+        "Týmový projekt v rámci univeryitního kurzu Softwarového inženýrství, zaměřený na modelování fintechové aplikace ve standardu UML.",
       technologies: ["UML"],
       links: [
         {
@@ -150,12 +151,18 @@ export const DATA = {
     },
     {
       title: "Malíř Beda",
-      href: "#",
-      dates: "květen 2024 - září 2024",
+      href: "https://malirbeda.cz",
+      dates: "květen 2025 - září 2025",
       active: false,
       description:
-        "Webové stránky pro malířskou firmu s portfoliem realizací a vizualní identitou.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+        "Webová aplikace pro malířskou firmu s portfoliem realizací a vizualní identitou. Součástí je i automatické emailové zprávy po zaslaní poptávky.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Resend",
+      ],
       links: [
         {
           icon: <Icons.github className="size-3" />,
@@ -172,15 +179,21 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Projekt v Sales Force",
-      href: "#",
-      dates: "březen 2024 - červen 2024",
+      title: "Projekt v Salesforce",
+      href: "/project/salesforce.pdf",
+      dates: "září 2025 - prosinec 2025",
       active: false,
       description:
-        "Customizace a vývoj v Salesforce platformě, včetně vytváření Apex tříd, Visualforce stránek a automatizace procesů pomocí Flow.",
-      technologies: ["Salesforce", "Apex", "Visualforce", "SOQL"],
-      links: [],
-      image: "",
+        "Vývoj v Salesforce platformě dle businesových požadavků, včetně vytváření automatizací pomocí Flows a custom reportů, objektů.",
+      technologies: ["Salesforce"],
+      links: [
+        {
+          icon: <Paperclip className="size-3" />,
+          type: "PDF",
+          href: "/project/salesforce.pdf",
+        },
+      ],
+      image: "/salesforce.png",
       video: "",
     },
     {
@@ -189,18 +202,17 @@ export const DATA = {
       dates: "leden 2025 - současnost",
       active: true,
       description:
-        "E-commerce řešení pro prodej vinylových podlah s pokročilým produktovým konfiguratorem, košíkem a integraciami platebních bran.",
+        "Poptávkový web pro prodej vinylových podlah s dynamickým produktovým katalogem, košíkem a poptávkovým formulářem. Projekt je aktuálně ve vývojové fázi.",
       technologies: [
         "Next.js",
         "Typescript",
-        "Supabase",
-        "Stripe",
         "TailwindCSS",
         "Shadcn UI",
         "Sanity CMS",
+        "Zustand",
       ],
       links: [],
-      image: "",
+      image: "/in-progress.png",
       video: "",
     },
   ],

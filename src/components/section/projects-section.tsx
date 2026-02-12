@@ -13,7 +13,7 @@ export default function ProjectsSection() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                My Projects
+                Projekty
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -23,9 +23,7 @@ export default function ProjectsSection() {
               Mé dosavadní projekty
             </h2>
             <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance text-center">
-              Pracoval jsem na různých projektech, od jednoduchých webových
-              stránek až po komplexní webové aplikace. Zde je několik mých
-              oblíbených.
+              Podívejte se na mé dosavadní portfolio projektů
             </p>
           </div>
         </div>
