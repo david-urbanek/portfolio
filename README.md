@@ -1,47 +1,56 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Osobní Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Toto je moje osobní ukázka portfolia vytvořená pomocí moderních webových technologií.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## O Projektu
 
-# Features
+Jedná se o responzivní portfolio postavené na Next.js 14, které prezentuje mé dovednosti, projekty a profesní zkušenosti. Web je optimalizovaný pro rychlý výkon a skvělý uživatelský zážitek.
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## Technologie
 
-# Getting Started Locally
+- **Next.js 14** - React framework
+- **TypeScript** - Pro typovou bezpečnost
+- **Shadcn/UI** - Komponenty uživatelského rozhraní
+- **TailwindCSS** - Styling
+- **Framer Motion** - Animace
+- **Magic UI** - Pokročilé UI komponenty
 
-1. Clone this repository to your local machine:
+## Funkce
+
+- ✨ Moderní a responzivní design
+- 📱 Optimalizováno pro všechna zařízení
+- 🚀 Vysoký výkon
+- 📝 Sekce s blog příspěvky
+- 🎨 Přizpůsobitelné prostřednictvím konfiguračního souboru
+
+## Instalace a Spuštění
+
+1. Naklonujte repozitář:
 
    ```bash
    git clone https://github.com/dillionverma/portfolio
    ```
 
-2. Move to the cloned directory
+2. Přejděte do složky projektu:
 
    ```bash
    cd portfolio
    ```
 
-3. Install dependencies:
+3. Nainstalujte závislosti:
 
    ```bash
    pnpm install
    ```
 
-4. Start the local Server:
+4. Spusťte vývojový server:
 
    ```bash
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+5. Upravte [konfigurační soubor](./src/data/resume.tsx) podle vlastních potřeb
 
-# License
+## Licence
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+Licencováno pod [MIT licencí](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
