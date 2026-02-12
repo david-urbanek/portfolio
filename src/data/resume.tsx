@@ -216,5 +216,5 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [],
+  hackathons: [] as any[],
 };
