@@ -16,7 +16,7 @@ export const DATA = {
   description:
     "jsem David, je mi 22 let a studuji podnikovou informatiku na MUNI. Věřím v to, že lidé by se měli více učit databáze než Excel :D",
   summary:
-    "Studuji podnikovou informatiku na MUNI, kde jsem v posledním bakalářském semestru. Posledních dva roky se sám věnuji webovému vývoji, převážně ve frameworku Next.js. V současné době nejvíce pracuji v Antigravity a rád bych se více zajímal o agentic-based development. Rád bych po dokončení bakaláře pokračoval na magisterském studiu v oboru softwarové inženýrství.",
+    "Momentálně studuji podnikovou informatiku na MUNI, kde jsem v posledním bakalářském semestru. Přes dva roky se sám věnuji webovému vývoji, převážně ve frameworku Next.js. V současné době nejvíce pracuji v Antigravity a rád bych se více zajímal o agentic-based development. Rád bych po dokončení bakaláře pokračoval na magisterském studiu v oboru softwarové inženýrství.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "React", icon: ReactLight },
